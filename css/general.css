@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {}
+
+body {
+	background-image:url(../images/column.svg);
+	background-size: 100%;
+	font-size: 100%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	line-height: 1.5rem;
+}
+
+.baseline {
+	background-image:url(../images/baseline.svg);
+}
+
+.wrapper {
+	background-color: #EA88A4;
+	overflow:hidden;
+}
+
+.left {
+	width: 65.25%;
+	float: left;
+}
+
+.right {
+	width: 34.75%;
+	float: right;
+}
+	
+article {
+	background-color: #fff;
+	padding: 1.5rem 3%;
+}
+
+article h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+article p {
+	margin-bottom: 1.5rem;
+}
+
+article p:last-child {
+	margin-bottom: 0;
+}
+
+aside {
+	padding: 1.5rem 6%;
+}
+
+.box {
+	background-color: #fff;
+	padding: 1.5rem 6%;
+	margin-bottom: 1.5rem;
+}
+
+.box h3 {
+	font-size: 1.25rem;
+}
+
+.box p {
+	font-size: .75rem;
+}
